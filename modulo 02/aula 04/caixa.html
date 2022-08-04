@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixar</title>
+    <style>
+        h1{ /*box-level*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            border: 10px solid darkslategray;/*esta linha simplifica todos os borden*/
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            margin: 20px 20px 40px 20px;
+
+            margin: auto;
+            padding-top: 21px;
+            padding-right: 34px;
+            padding-bottom: 55px;
+            padding-left: 24px;
+            text-align: center;
+
+            padding: 21px 34px 55px 24px;
+
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: red;
+
+            padding: 3px dashed red;
+        }
+        a{ /*inline-level*/
+
+            display: block;
+            border-width: 2px;
+            border-style: dashed;
+            border-color: red;
+            padding-top: 2px;
+             padding-right: 1px;
+             padding-bottom: 2px;
+            padding-left: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixar box level</h1>
+    <p>Parágrafo também são exemplos de box-level, <a href="#">mas os links são exemplos de caixas inline-level</a>. vamos ver como  tudo isso fuciona.</p>
+</body>
+</html>
